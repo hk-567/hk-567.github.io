@@ -1,6 +1,6 @@
 /* Global Styles */
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif; /* Changed to Roboto for a cleaner look */
     margin: 0;
     padding: 0;
     background-color: #f9f9f9; /* Light background for contrast */
@@ -12,12 +12,14 @@ header {
     color: white;
     padding: 20px;
     text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for header */
 }
 
 .profile-pic {
     border-radius: 50%; /* Circular profile picture */
     width: 150px;
     height: 150px;
+    margin: 10px 0; /* Margin around profile picture */
 }
 
 /* Main Layout */
@@ -39,6 +41,8 @@ section {
 
 h2 {
     color: #800000; /* Burgundy header color */
+    border-bottom: 2px solid #800000; /* Underline for emphasis */
+    padding-bottom: 5px; /* Space below the heading */
 }
 
 .project-grid {
@@ -55,11 +59,12 @@ h2 {
     border: 1px solid #ddd; /* Border */
     border-radius: 8px; /* Rounded corners */
     padding: 15px;
-    transition: background-color 0.3s ease; /* Smooth transition */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
 }
 
 .project-button:hover {
     background-color: #ffcccc; /* Light red on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
 }
 
 .project-button h3 {
