@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker Documentation</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <h1>Expense Tracker Documentation</h1>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="../index.html#projects">Projects</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Overview</h2>
+            <p>This application tracks transactions and expenses by category.</p>
+
+            <h2>Technologies Used</h2>
+            <p>C#, HTML, CSS, JavaScript, ASP.NET MVC, Entity Framework</p>
+        </section>
+    </main>
+</body>
+</html>
