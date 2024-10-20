@@ -5,147 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Habiba Khatun - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            background-color: #f4f4f4;
-        }
-
-        header {
-            background: #35424a;
-            color: #ffffff;
-            padding: 10px 20px;
-            text-align: center;
-            flex: 1 0 auto;
-        }
-
-        nav {
-            background: #35424a;
-            color: #ffffff;
-            padding: 15px;
-            width: 200px;
-            flex: 0 0 200px;
-        }
-
-        nav a {
-            color: #ffffff;
-            text-decoration: none;
-            display: block;
-            padding: 10px;
-            margin: 5px 0;
-            border-radius: 5px;
-            transition: background 0.3s;
-        }
-
-        nav a:hover {
-            background: #2c3e50;
-        }
-
-        .container {
-            padding: 20px;
-            flex: 1 0 auto;
-            background: #ffffff;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        h1, h2 {
-            color: #35424a;
-        }
-
-        .project-button {
-            display: inline-block;
-            padding: 10px 20px;
-            margin: 10px 0;
-            background: #35424a;
-            color: #ffffff;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background 0.3s;
-        }
-
-        .project-button:hover {
-            background: #2c3e50;
-        }
-
-        footer {
-            text-align: center;
-            padding: 10px;
-            background: #35424a;
-            color: #ffffff;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-
-        /* Responsive styles */
-        @media (max-width: 768px) {
-            nav {
-                width: 100%;
-                position: relative;
-            }
-
-            body {
-                flex-direction: column;
-            }
-
-            .container {
-                margin: 0;
-            }
-        }
-    </style>
 </head>
 <body>
     <header>
+        <img src="images/your_photo.jpg" alt="Habiba Khatun" class="profile-pic">
         <h1>Habiba Khatun</h1>
-        <p>BSc Computer Science at University of Birmingham | RAE Amazon Future Engineer</p>
     </header>
-    
-    <nav>
-        <h2>Navigation</h2>
-        <a href="#about">About Me</a>
-        <a href="#projects">Projects</a>
-        <a href="#certifications">Certifications</a>
-    </nav>
-    
-    <div class="container">
-        <section id="about">
-            <h2>About Me</h2>
-            <p>I am a second-year Computer Science undergraduate passionate about blending technical problem-solving with client-facing collaboration. I enjoy diving into technical challenges while communicating complex ideas to a broader audience.</p>
-        </section>
-        
-        <section id="projects">
+
+    <main>
+        <section>
             <h2>Projects</h2>
-            <ul>
-                <li>
-                    <strong>Terminal Games (Python)</strong>
-                    <p>A collection of classic terminal-based games implemented in Python.</p>
-                    <a href="https://github.com/yourusername/terminal-games" class="project-button">View Project</a>
-                    <a href="https://yourdocumentationlink.com" class="project-button">View Documentation</a>
-                </li>
-                <li>
-                    <strong>Expense Tracker (C#)</strong>
-                    <p>Tracks transactions and expenses by category.</p>
-                    <a href="https://github.com/yourusername/expense-tracker" class="project-button">View Project</a>
-                    <a href="https://yourdocumentationlink.com" class="project-button">View Documentation</a>
-                </li>
-            </ul>
+            <div class="project">
+                <h3>Terminal Games (Python)</h3>
+                <p>This project is a collection of classic terminal-based games implemented in Python.</p>
+                <a href="projects/terminal_games_documentation.html" class="project-button">View Documentation</a>
+            </div>
+            <div class="project">
+                <h3>Expense Tracker (C#)</h3>
+                <p>Tracks transactions and expenses by category.</p>
+                <a href="projects/expense_tracker_documentation.html" class="project-button">View Documentation</a>
+            </div>
+            <div class="project">
+                <h3>Legal Case Manager (C#)</h3>
+                <p>Non-Exam Assessment for A-level Computer Science, with invoice generation and file management.</p>
+                <a href="projects/legal_case_manager_documentation.html" class="project-button">View Documentation</a>
+            </div>
+            <div class="project">
+                <h3>Fractal Image Generation (Python)</h3>
+                <p>Python script to create and display different fractal sets.</p>
+                <a href="projects/fractal_image_generation_documentation.html" class="project-button">View Documentation</a>
+            </div>
         </section>
-
-        <section id="certifications">
-            <h2>Certifications</h2>
-            <ul>
-                <li>Learn Intermediate Java Course - Codecademy</li>
-                <li>Getting Started with Cisco Packet Tracer - Cisco Networking Academy</li>
-            </ul>
-        </section>
-    </div>
-
-    <footer>
-        <p>© 2024 Habiba Khatun</p>
-    </footer>
+    </main>
 </body>
 </html>
