@@ -18,12 +18,19 @@ header {
 }
 
 main {
-    display: flex;
-    justify-content: space-between;
     padding: 20px;
 }
 
-.about, .projects {
+.about {
+    margin-bottom: 20px;
+}
+
+.two-column-layout {
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects {
     flex: 3;
     margin-right: 20px;
     background: white;
@@ -40,29 +47,16 @@ main {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.project-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 20px;
+h2 {
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
 }
 
-.project-button {
-    text-decoration: none;
-    background-color: #007bff;
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
-    text-align: center;
-    transition: background-color 0.3s;
+ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-.project-button:hover {
-    background-color: #0056b3;
-}
-
-.course {
+li {
     margin-bottom: 10px;
 }
-
-h2 {
-    border-bottom: 2px
