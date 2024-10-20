@@ -3,19 +3,19 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #f9f9f9; /* Light background for contrast */
+    color: #333; /* Dark text color */
 }
 
 header {
-    background-color: #4CAF50; /* A nice green header */
+    background-color: #800000; /* Burgundy color */
     color: white;
     padding: 20px;
     text-align: center;
 }
 
 .profile-pic {
-    border-radius: 50%; /* Makes the image circular */
+    border-radius: 50%; /* Circular profile picture */
     width: 150px;
     height: 150px;
 }
@@ -38,7 +38,7 @@ section {
 }
 
 h2 {
-    color: #4CAF50; /* Header color */
+    color: #800000; /* Burgundy header color */
 }
 
 .project-grid {
@@ -51,7 +51,7 @@ h2 {
     display: block;
     text-decoration: none;
     color: #333; /* Text color */
-    background-color: #e7e7e7; /* Light gray background */
+    background-color: #f4f4f4; /* Light gray background */
     border: 1px solid #ddd; /* Border */
     border-radius: 8px; /* Rounded corners */
     padding: 15px;
@@ -59,7 +59,7 @@ h2 {
 }
 
 .project-button:hover {
-    background-color: #d4edda; /* Light green on hover */
+    background-color: #ffcccc; /* Light red on hover */
 }
 
 .project-button h3 {
