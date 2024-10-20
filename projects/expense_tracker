@@ -3,25 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Expense Tracker Documentation</title>
+    <title>Expense Tracker - Habiba Khatun</title>
     <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
     <header>
-        <h1>Expense Tracker Documentation</h1>
-        <nav>
-            <a href="../index.html">Home</a>
-            <a href="../index.html#projects">Projects</a>
-        </nav>
+        <h1>Expense Tracker</h1>
+        <a href="../index.html" class="back-button">Back to Projects</a>
     </header>
-
     <main>
         <section>
-            <h2>Overview</h2>
-            <p>This application tracks transactions and expenses by category.</p>
-
-            <h2>Technologies Used</h2>
-            <p>C#, HTML, CSS, JavaScript, ASP.NET MVC, Entity Framework</p>
+            <h2>Project Overview</h2>
+            <p>This project tracks transactions and expenses by category.</p>
+            <p><strong>Skills:</strong> C#, HTML, CSS, JavaScript, ASP.NET MVC, Entity Framework</p>
+            <a href="https://github.com/hk-567/expense_tracker" class="project-button">View Code</a>
         </section>
     </main>
 </body>
