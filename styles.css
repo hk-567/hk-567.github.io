@@ -1,13 +1,12 @@
 /* Global Styles */
 body {
-    font-family: 'Source Sans Pro', sans-serif; /* Updated to Source Sans Pro */
+    font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f9f9f9; /* Light background for contrast */
     color: #333; /* Dark text color */
 }
 
-/* Other styles remain the same */
 header {
     background-color: #800000; /* Burgundy color */
     color: white;
@@ -17,15 +16,22 @@ header {
 
 .profile-pic {
     border-radius: 50%; /* Circular profile picture */
-    width: 160px;
+    width: 150px;
     height: 150px;
 }
 
 /* Main Layout */
 main {
     display: flex;
-    justify-content: space-between;
+    justify-content: center; /* Center the container */
     margin: 20px;
+}
+
+.content-container {
+    display: flex; /* Use flexbox for the two sections */
+    justify-content: space-between; /* Space between sections */
+    width: 100%; /* Full width */
+    max-width: 1200px; /* Optional max width */
 }
 
 /* Section Styles */
@@ -71,6 +77,10 @@ h2 {
 @media (max-width: 600px) {
     main {
         flex-direction: column; /* Stack sections on small screens */
+    }
+
+    .content-container {
+        flex-direction: column; /* Stack the about and projects section */
     }
 
     section {
