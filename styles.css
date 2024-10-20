@@ -1,7 +1,7 @@
-/* styles.css */
-
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -9,64 +9,99 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: white;
+    background: #333;
+    color: #fff;
+    padding: 20px;
     text-align: center;
-    padding: 20px 0;
 }
 
 .profile-pic {
-    width: 150px;
-    border-radius: 50%;
-    margin-bottom: 10px;
+    width: 150px; /* Adjust size as needed */
+    border-radius: 50%; /* Circular image */
 }
 
 h1 {
-    margin: 0;
+    margin: 10px 0;
     font-size: 2.5em;
 }
 
-h2 {
-    color: #666;
+nav {
     margin-top: 20px;
 }
 
-.project {
-    background-color: white;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 15px;
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+
+/* About Section */
+#about {
+    margin-bottom: 40px;
+}
+
+/* Projects Section */
+#projects {
     margin: 20px 0;
-    transition: transform 0.2s;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.project {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project:hover {
-    transform: scale(1.02);
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .project-button {
     display: inline-block;
-    background-color: #444;
-    color: white;
+    background: #333;
+    color: #fff;
     padding: 10px 15px;
+    margin-top: 10px;
     text-decoration: none;
     border-radius: 5px;
-    margin-top: 10px;
-    transition: transform 0.2s, background-color 0.3s;
+    transition: transform 0.3s ease, background 0.3s ease;
 }
 
 .project-button:hover {
-    transform: scale(1.1);
-    background-color: #666;
+    background: #555;
+    transform: scale(1.05); /* Button grows on hover */
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
-}
+/* Media Queries for Responsiveness */
+@media (max-width: 600px) {
+    .project-grid {
+        grid-template-columns: 1fr; /* Stack on smaller screens */
+    }
 
-main {
-    padding: 20px;
-    max-width: 800px;
-    margin: auto;
+    .profile-pic {
+        width: 100px; /* Smaller image on mobile */
+    }
+
+    h1 {
+        font-size: 2em; /* Smaller title on mobile */
+    }
 }
