@@ -72,25 +72,19 @@ h2 {
 /* Footer */
 footer {
     padding: 20px;
-    background-color: #333;
+    background-color: #333; /* Dark background */
     color: white;
-}
-
-.social-icon {
-    width: 40px;
-    margin: 0 15px;
+    text-align: center;
 }
 
 footer a {
-    display: inline-block;
-    margin: 0 10px;
-    text-decoration: none;
-    color: white;
-    transition: opacity 0.3s ease;
+    margin: 0 15px;
+    color: white; /* Icon color */
+    transition: color 0.3s ease;
 }
 
 footer a:hover {
-    opacity: 0.7;
+    color: #ffcccc; /* Light red on hover */
 }
 
 /* Responsive Styles */
