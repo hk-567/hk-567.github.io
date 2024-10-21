@@ -6,13 +6,10 @@ body {
     background-color: #f9f9f9; /* Light background */
     color: #333; /* Dark text color */
     text-align: center; /* Center all content by default */
-    display: flex; /* Make the body a flex container */
-    flex-direction: column; /* Arrange children in a column */
-    height: 100vh; /* Full height of the viewport */
 }
 
 header {
-    background-color: #800000; /* Burgundy color */
+    background: linear-gradient(to right, #800000, #b30000); /* Gradient effect */
     color: white;
     padding: 40px;
 }
@@ -34,7 +31,6 @@ header {
 /* Main Layout */
 main {
     padding: 40px 20px;
-    flex: 1; /* Allow main to expand and take available space */
 }
 
 .about-me, .projects {
@@ -46,6 +42,7 @@ main {
 h2 {
     color: #800000; /* Burgundy header color */
     margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Soft text shadow */
 }
 
 .project-grid {
@@ -62,11 +59,14 @@ h2 {
     border: 1px solid #ddd; /* Border */
     border-radius: 8px; /* Rounded corners */
     padding: 15px;
-    transition: background-color 0.3s ease; /* Smooth transition */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Added transform */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
 }
 
 .project-button:hover {
     background-color: #ffcccc; /* Light red on hover */
+    transform: scale(1.05); /* Slightly enlarge the button */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Deeper shadow on hover */
 }
 
 .project-button h3 {
@@ -76,7 +76,7 @@ h2 {
 /* Footer */
 footer {
     padding: 20px;
-    background-color: #800000; /* Dark background */
+    background-color: #800000; /* Burgundy footer color */
     color: white;
     text-align: center;
 }
@@ -100,4 +100,27 @@ footer a:hover {
     .project-grid {
         grid-template-columns: 1fr; /* Stacks project buttons on small screens */
     }
+}
+
+/* Additional Effects */
+html {
+    scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+img {
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+img:hover {
+    transform: scale(1.1); /* Enlarge image on hover */
+}
+
+/* Fade-in effect */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+section {
+    animation: fadeIn 1s ease-in; /* Apply fade-in effect */
 }
