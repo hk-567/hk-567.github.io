@@ -6,6 +6,9 @@ body {
     background-color: #f9f9f9; /* Light background */
     color: #333; /* Dark text color */
     text-align: center; /* Center all content by default */
+    display: flex; /* Make the body a flex container */
+    flex-direction: column; /* Arrange children in a column */
+    height: 100vh; /* Full height of the viewport */
 }
 
 header {
@@ -31,6 +34,7 @@ header {
 /* Main Layout */
 main {
     padding: 40px 20px;
+    flex: 1; /* Allow main to expand and take available space */
 }
 
 .about-me, .projects {
