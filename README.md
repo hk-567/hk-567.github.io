@@ -1,4 +1,4 @@
-# Habiba Khatun - Portfolio
+# Portfolio
 
 This is my personal portfolio website showcasing my projects, skills, and experience as a Computer Science undergraduate. The portfolio highlights my technical work, achievements, and provides links to my LinkedIn and GitHub profiles for further collaboration and opportunities.
 
