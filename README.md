@@ -35,10 +35,10 @@ To run the portfolio locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/hk-567/portfolio.git
+   git clone https://github.com/hk-567/hk-567.github.io.git
 2. Navigate to the project folder:
    ```bash
-   cd portfolio
+   cd hk-567.github.io
 3. Install Jekyll (if you haven't already): Follow the [Jekyll installation](https://jekyllrb.com/docs/installation/) guide to install it.
 4. Run the Jekyll server:
    ```bash
