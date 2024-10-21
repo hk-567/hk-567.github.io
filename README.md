@@ -48,6 +48,7 @@ To run the portfolio locally, follow these steps:
 ## File Structure
   ```bash
 .
+├── images/                 # Images folder  
 ├── styles.css              # Main stylesheet
 ├── index.html              # Main landing page
 ├── projects/               # Project pages
