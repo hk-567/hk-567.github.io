@@ -35,7 +35,7 @@ To run the portfolio locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/portfolio.git
+   git clone https://github.com/hk-567/portfolio.git
 2. Navigate to the project folder:
    ```bash
    cd portfolio
