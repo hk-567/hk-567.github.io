@@ -138,3 +138,16 @@ img:hover {
 section {
     animation: fadeIn 1s ease-in; /* Apply fade-in effect */
 }
+/* Center align unordered lists within the section */
+main section ul {
+    list-style-position: inside; /* Keeps the bullets inside the container */
+    margin: 0 auto; /* Centers the list */
+    padding: 0;
+    text-align: center;
+    display: inline-block; /* Makes the list take up only as much space as needed */
+}
+
+main section ul li {
+    text-align: left; /* Aligns each list item to the left for readability */
+    margin: 5px 0; /* Adds space between list items */
+}
