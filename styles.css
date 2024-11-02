@@ -73,6 +73,20 @@ h2 {
     margin: 0 0 10px 0; /* Spacing for title */
 }
 
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full viewport height */
+}
+
+main {
+    flex: 1; /* Makes main take up remaining space */
+}
+
+/* Footer styling */
+
+
 /* Footer */
 footer {
     padding: 20px;
