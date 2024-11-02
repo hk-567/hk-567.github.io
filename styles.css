@@ -73,7 +73,6 @@ h2 {
     margin: 0 0 10px 0; /* Spacing for title */
 }
 
-
 .page-container {
     display: flex;
     flex-direction: column;
@@ -85,9 +84,6 @@ main {
 }
 
 /* Footer styling */
-
-
-/* Footer */
 footer {
     padding: 20px;
     background-color: #800000; /* Burgundy footer color */
@@ -138,6 +134,7 @@ img:hover {
 section {
     animation: fadeIn 1s ease-in; /* Apply fade-in effect */
 }
+
 /* Center align unordered lists within the section */
 main section ul {
     list-style-position: inside; /* Keeps the bullets inside the container */
@@ -185,4 +182,3 @@ main section ul li {
     width: 100%; /* Expand to full width */
     animation: typing 2s steps(30, end), blinkingCursor 0.75s step-end infinite;
 }
-
